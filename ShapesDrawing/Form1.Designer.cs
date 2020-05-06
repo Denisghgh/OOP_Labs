@@ -36,7 +36,6 @@
             this.btnSquare = new System.Windows.Forms.Button();
             this.btnCircle = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.editButton = new System.Windows.Forms.Button();
             this.btnDeserializable = new System.Windows.Forms.Button();
             this.btnSerializable = new System.Windows.Forms.Button();
             this.btnRedo = new System.Windows.Forms.Button();
@@ -66,7 +65,7 @@
             // 
             // btnRectangle
             // 
-            this.btnRectangle.Location = new System.Drawing.Point(3, 3);
+            this.btnRectangle.Location = new System.Drawing.Point(111, 32);
             this.btnRectangle.Name = "btnRectangle";
             this.btnRectangle.Size = new System.Drawing.Size(102, 23);
             this.btnRectangle.TabIndex = 1;
@@ -121,7 +120,7 @@
             // 
             // btnCircle
             // 
-            this.btnCircle.Location = new System.Drawing.Point(111, 32);
+            this.btnCircle.Location = new System.Drawing.Point(3, 3);
             this.btnCircle.Name = "btnCircle";
             this.btnCircle.Size = new System.Drawing.Size(102, 23);
             this.btnCircle.TabIndex = 6;
@@ -133,13 +132,12 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.editButton);
             this.panel1.Controls.Add(this.btnDeserializable);
             this.panel1.Controls.Add(this.btnSerializable);
             this.panel1.Controls.Add(this.btnRedo);
             this.panel1.Controls.Add(this.btnClear);
-            this.panel1.Controls.Add(this.btnUndo);
             this.panel1.Controls.Add(this.btnRectangle);
+            this.panel1.Controls.Add(this.btnUndo);
             this.panel1.Controls.Add(this.btnEllipse);
             this.panel1.Controls.Add(this.btnSquare);
             this.panel1.Controls.Add(this.btnCircle);
@@ -149,15 +147,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(668, 63);
             this.panel1.TabIndex = 7;
-            // 
-            // editButton
-            // 
-            this.editButton.Location = new System.Drawing.Point(557, 32);
-            this.editButton.Name = "editButton";
-            this.editButton.Size = new System.Drawing.Size(103, 23);
-            this.editButton.TabIndex = 14;
-            this.editButton.Text = "Редактировать";
-            this.editButton.UseVisualStyleBackColor = true;
             // 
             // btnDeserializable
             // 
@@ -193,7 +182,7 @@
             // 
             this.btnClear.Location = new System.Drawing.Point(557, 3);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(102, 23);
+            this.btnClear.Size = new System.Drawing.Size(102, 52);
             this.btnClear.TabIndex = 12;
             this.btnClear.Text = "Очистить";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -205,7 +194,7 @@
             this.btnUndo.Name = "btnUndo";
             this.btnUndo.Size = new System.Drawing.Size(102, 23);
             this.btnUndo.TabIndex = 8;
-            this.btnUndo.Text = "Назад";
+            this.btnUndo.Text = "Откатить";
             this.btnUndo.UseVisualStyleBackColor = true;
             this.btnUndo.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -214,9 +203,8 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(745, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 13);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Список фигур";
             // 
             // shapeParametersGrid
             // 
@@ -257,9 +245,9 @@
             // shapesListView
             // 
             this.shapesListView.HideSelection = false;
-            this.shapesListView.Location = new System.Drawing.Point(686, 28);
+            this.shapesListView.Location = new System.Drawing.Point(686, 12);
             this.shapesListView.Name = "shapesListView";
-            this.shapesListView.Size = new System.Drawing.Size(199, 199);
+            this.shapesListView.Size = new System.Drawing.Size(199, 215);
             this.shapesListView.TabIndex = 12;
             this.shapesListView.UseCompatibleStateImageBehavior = false;
             this.shapesListView.SelectedIndexChanged += new System.EventHandler(this.shapesListView_SelectedIndexChanged);
@@ -303,7 +291,6 @@
         private System.Windows.Forms.Button btnRedo;
         private System.Windows.Forms.Button btnSerializable;
         private System.Windows.Forms.Button btnDeserializable;
-        private System.Windows.Forms.Button editButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView shapeParametersGrid;
         private System.Windows.Forms.DataGridViewTextBoxColumn charColumn;

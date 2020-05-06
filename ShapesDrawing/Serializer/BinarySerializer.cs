@@ -9,7 +9,7 @@ namespace ShapesDrawing
 {
     class BinarySerializer : ISerializer
     {
-        const String path = "shapes.dat";
+        const String path = "Serial_Shapes.dat";
         private BinaryFormatter formatter;
         public BinarySerializer()
         {

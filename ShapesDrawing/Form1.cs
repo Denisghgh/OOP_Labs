@@ -71,7 +71,6 @@ namespace ShapesDrawing
             shapesDrawer.DrawShapeList(shapesListManager.GetList());
             shapesListManager.RefreshFormShapesList(shapesListView);
         }
-
         private void shapesListView_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -79,8 +78,7 @@ namespace ShapesDrawing
                 if (shapesListView.SelectedIndices[0] > -1)
                     shapesListManager.OpenShapeCharacteristics(shapeParametersGrid, shapesListView.SelectedIndices[0]);
             }
-            catch { }
-            
+            catch { }    
         }
 
         private void shapeParametersGrid_CellEndEdit(object sender, DataGridViewCellEventArgs e)
@@ -95,7 +93,7 @@ namespace ShapesDrawing
         {
             const int colorColumnIndex = 1;
             const int colorRowIndex = 5;
-            if ((e.ColumnIndex == colorColumnIndex) &&(e.RowIndex == colorRowIndex))
+            if ((e.ColumnIndex == colorColumnIndex) && (e.RowIndex == colorRowIndex))
             {
                 DialogResult dialogResult = ColorDialog.ShowDialog();
                 if (dialogResult == DialogResult.OK)

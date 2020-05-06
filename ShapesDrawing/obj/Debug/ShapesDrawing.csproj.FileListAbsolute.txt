@@ -73,3 +73,13 @@ C:\Users\Denizka\DenisFolder\OOTPiSP\YermalLab\OOP_MyLabs-master\Lab3\ShapesDraw
 C:\Users\Denizka\DenisFolder\OOTPiSP\YermalLab\OOP_MyLabs-master\Lab3\ShapesDrawing\obj\Debug\ShapesDrawing.csproj.CoreCompileInputs.cache
 C:\Users\Denizka\DenisFolder\OOTPiSP\YermalLab\OOP_MyLabs-master\Lab3\ShapesDrawing\obj\Debug\ShapesDrawing.exe
 C:\Users\Denizka\DenisFolder\OOTPiSP\YermalLab\OOP_MyLabs-master\Lab3\ShapesDrawing\obj\Debug\ShapesDrawing.pdb
+C:\Users\Denizka\Documents\GitHub\OOP_Labs\ShapesDrawing\bin\Debug\ShapesDrawing.exe.config
+C:\Users\Denizka\Documents\GitHub\OOP_Labs\ShapesDrawing\bin\Debug\ShapesDrawing.exe
+C:\Users\Denizka\Documents\GitHub\OOP_Labs\ShapesDrawing\bin\Debug\ShapesDrawing.pdb
+C:\Users\Denizka\Documents\GitHub\OOP_Labs\ShapesDrawing\obj\Debug\ShapesDrawing.csprojAssemblyReference.cache
+C:\Users\Denizka\Documents\GitHub\OOP_Labs\ShapesDrawing\obj\Debug\ShapesDrawing.fmShapeDrawing.resources
+C:\Users\Denizka\Documents\GitHub\OOP_Labs\ShapesDrawing\obj\Debug\ShapesDrawing.Properties.Resources.resources
+C:\Users\Denizka\Documents\GitHub\OOP_Labs\ShapesDrawing\obj\Debug\ShapesDrawing.csproj.GenerateResource.cache
+C:\Users\Denizka\Documents\GitHub\OOP_Labs\ShapesDrawing\obj\Debug\ShapesDrawing.csproj.CoreCompileInputs.cache
+C:\Users\Denizka\Documents\GitHub\OOP_Labs\ShapesDrawing\obj\Debug\ShapesDrawing.exe
+C:\Users\Denizka\Documents\GitHub\OOP_Labs\ShapesDrawing\obj\Debug\ShapesDrawing.pdb
