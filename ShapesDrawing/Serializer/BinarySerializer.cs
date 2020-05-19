@@ -17,9 +17,9 @@ namespace ShapesDrawing
         }
         public void Serialize(IList<Shape> shapes)
         {
-            using (FileStream fileStream = new FileStream(path, FileMode.OpenOrCreate))
+            using (FileStream streamfile = new FileStream(path, FileMode.OpenOrCreate))
             {
-                formatter.Serialize(fileStream, shapes);
+                formatter.Serialize(streamfile, shapes);
             }
         }
         public IList<Shape> Deserialize()
